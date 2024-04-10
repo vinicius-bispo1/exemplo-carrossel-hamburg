@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: solid red 1px;
+   
+}
+
+.rec .rec-pagination{
+    /* display: none; */
+    color: brown;
+}
+
+.rec .rec-arrow-left {
+    background-color: aqua;
+}
+
+.card{
+   border: solid green 1px; 
+}
+
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+header button {
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-right: 2rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.705);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  font-size: 2rem;
+  list-style: none;
+  color: white;
+}
